@@ -1,0 +1,31 @@
+
+<web-app>
+
+  <servlet>
+    <servlet-name>ProcessStudent</servlet-name>
+    <servlet-class>ProcessStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>ProcessStudent</servlet-name>
+    <url-pattern>/process-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>DeleteStudent</servlet-name>
+    <servlet-class>DeleteStudentServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>DeleteStudent</servlet-name>
+    <url-pattern>/delete-student</url-pattern>
+  </servlet-mapping>
+
+  <servlet>
+    <servlet-name>UpdateStudent</servlet-name>
+    <servlet-class>UpdateStudentNameServlet</servlet-class>
+  </servlet>
+  <servlet-mapping>
+    <servlet-name>UpdateStudent</servlet-name>
+    <url-pattern>/update-student</url-pattern>
+  </servlet-mapping>
+
+</web-app>
