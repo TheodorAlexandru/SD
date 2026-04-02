@@ -1,0 +1,71 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (X11; Linux x86_64; rv:140.0) Gecko/20100101 Firefox/140.0" version="29.6.4">
+  <diagram name="Page-1" id="990paCSIf9LKsV9T6ZkE">
+    <mxGraphModel dx="1426" dy="915" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-2" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=40;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;data&amp;gt;&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;Person&lt;/div&gt;" vertex="1">
+          <mxGeometry height="110" width="240" x="10" y="390" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-3" parent="P2OL-9O5NQQPE-1mI2Oe-2" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ id: Int&lt;/div&gt;&lt;div&gt;+ lastName: String&lt;/div&gt;&lt;div&gt;+ firstName: String&lt;/div&gt;&lt;div&gt;+ telephoneNumber: String&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="70" width="240" y="40" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-8" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;AgendaService&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="180" width="310" x="340" y="160" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-9" parent="P2OL-9O5NQQPE-1mI2Oe-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;&lt;u&gt;+ initialAgenda: Array&amp;lt;Person&amp;gt;&lt;br&gt;&lt;/u&gt;&lt;/div&gt;&lt;div&gt;- agenda: ConcurrentHashMap&amp;lt;Int, Person&amp;gt;&amp;nbsp;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="44" width="310" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-10" parent="P2OL-9O5NQQPE-1mI2Oe-8" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="310" y="70" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-11" parent="P2OL-9O5NQQPE-1mI2Oe-8" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getPerson(id: Int): Person?&lt;/div&gt;&lt;div&gt;+ createPerson(person: Person)&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ deletePerson(id: Int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ updatePerson(id: Int, person: Person)&lt;/div&gt;&lt;div&gt;+ searchAgenda(lastNameFilter: String, firstNameFilter: String, telephoneNumberFilter: String): List&amp;lt;Person&amp;gt;&lt;/div&gt;&lt;br&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="102" width="310" y="78" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-12" parent="1" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;fillColor=none;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="&lt;div&gt;&amp;lt;&amp;lt;interface&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;IAgendaService&lt;/div&gt;" vertex="1">
+          <mxGeometry height="130" width="310" x="370" y="430" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-13" parent="P2OL-9O5NQQPE-1mI2Oe-12" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ getPerson(id: Int): Person?&lt;/div&gt;&lt;div&gt;+ createPerson(person: Person)&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ deletePerson(id: Int)&lt;/div&gt;&lt;/div&gt;&lt;div&gt;&lt;div&gt;+ updatePerson(id: Int, person: Person)&lt;/div&gt;&lt;div&gt;+ searchAgenda(lastNameFilter: String, firstNameFilter: String, telephoneNumberFilter: String): List&amp;lt;Person&amp;gt;&lt;/div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="100" width="310" y="30" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-16" parent="1" style="swimlane;fontStyle=1;align=center;verticalAlign=top;childLayout=stackLayout;horizontal=1;startSize=26;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;whiteSpace=wrap;html=1;" value="AgendaController" vertex="1">
+          <mxGeometry height="200" width="350" x="330" y="650" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-17" parent="P2OL-9O5NQQPE-1mI2Oe-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="- _agendaService: IAgendaService" vertex="1">
+          <mxGeometry height="26" width="350" y="26" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-18" parent="P2OL-9O5NQQPE-1mI2Oe-16" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;" value="" vertex="1">
+          <mxGeometry height="8" width="350" y="52" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-19" parent="P2OL-9O5NQQPE-1mI2Oe-16" style="text;strokeColor=none;fillColor=none;align=left;verticalAlign=top;spacingLeft=4;spacingRight=4;overflow=hidden;rotatable=0;points=[[0,0.5],[1,0.5]];portConstraint=eastwest;whiteSpace=wrap;html=1;" value="&lt;div&gt;+ createPerson(person: Person):&amp;nbsp;ResponseEntity&amp;lt;Unit&amp;gt;&lt;/div&gt;&lt;div&gt;+ getPerson(id: Int): ResponseEntity&amp;lt;Person?&amp;gt;&lt;/div&gt;&lt;div&gt;+ updatePerson(id: Int, person: Person):&amp;nbsp;ResponseEntity&amp;lt;Unit&amp;gt;&lt;/div&gt;&lt;div&gt;+ patchPerson(id: Int, patchOperations: JsonPatch):&amp;nbsp;ResponseEntity&amp;lt;Unit&amp;gt;&lt;/div&gt;&lt;div&gt;+ deletePerson(id: Int):&amp;nbsp;ResponseEntity&amp;lt;Unit&amp;gt;&lt;/div&gt;&lt;div&gt;+ search(lastName: String, firstName: String, telephoneNumber: String):&lt;br&gt;ResponseEntity&amp;lt;List&amp;lt;Person&amp;gt;&amp;gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;&lt;div&gt;&lt;br&gt;&lt;/div&gt;" vertex="1">
+          <mxGeometry height="140" width="350" y="60" as="geometry" />
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-21" edge="1" parent="1" source="P2OL-9O5NQQPE-1mI2Oe-11" style="endArrow=block;dashed=1;endFill=0;endSize=12;html=1;rounded=0;entryX=0.387;entryY=0;entryDx=0;entryDy=0;entryPerimeter=0;" target="P2OL-9O5NQQPE-1mI2Oe-12" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <Array as="points" />
+            <mxPoint x="530" y="490" as="sourcePoint" />
+            <mxPoint x="690" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-22" edge="1" parent="1" source="P2OL-9O5NQQPE-1mI2Oe-11" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.071;exitY=0.979;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.925;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="P2OL-9O5NQQPE-1mI2Oe-2" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="530" y="490" as="sourcePoint" />
+            <mxPoint x="690" y="490" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="P2OL-9O5NQQPE-1mI2Oe-28" edge="1" parent="1" source="P2OL-9O5NQQPE-1mI2Oe-16" style="endArrow=open;endSize=12;dashed=1;html=1;rounded=0;exitX=0.053;exitY=-0.015;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.838;entryY=1.052;entryDx=0;entryDy=0;entryPerimeter=0;" target="P2OL-9O5NQQPE-1mI2Oe-3" value="Use">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="420" y="590" as="sourcePoint" />
+            <mxPoint x="290" y="640" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="FK9aN6fEpOi34-ulIKd_-1" edge="1" parent="1" source="P2OL-9O5NQQPE-1mI2Oe-13" style="endArrow=diamondThin;endFill=0;endSize=24;html=1;rounded=0;exitX=0.468;exitY=1;exitDx=0;exitDy=0;exitPerimeter=0;entryX=0.551;entryY=-0.02;entryDx=0;entryDy=0;entryPerimeter=0;" target="P2OL-9O5NQQPE-1mI2Oe-16" value="">
+          <mxGeometry relative="1" width="160" as="geometry">
+            <mxPoint x="330" y="480" as="sourcePoint" />
+            <mxPoint x="490" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>

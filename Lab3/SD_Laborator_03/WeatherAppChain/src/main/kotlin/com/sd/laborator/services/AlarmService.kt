@@ -19,7 +19,7 @@ class AlarmService : AlarmInterface, Chainable<Weather_I_O, String> {
     override fun proceed(input: Weather_I_O): String {
         val forecastData = input.forecastData!!
 
-        val triggerAlarm = checkTemperature(forecastData.currentTemp, 20, 30)
+        val triggerAlarm = checkTemperature(forecastData.currentTemp, 5, 30)
         if(triggerAlarm)
             return "Temperatura este inafara limitelor acceptate"
 

@@ -1,0 +1,90 @@
+<!--Cauta persoane din agenda in functie de numele, prenumele sau nr de telefon introdus-->
+<h2> Cauta persoane </h2>
+<form action="https://localhost:8080/agenda" method="GET">
+    Last Name: <input type="text" name="lastName"><br>
+    First Name: <input type="text" name="firstName"><br>
+    Phone Number: <input type="text" name="telephone"><br>
+    <button type="submit">Cauta</button>
+</form>
+
+<!--introducere persoana in agenda-->
+<h2> Introdu persoana </h2>
+<form>
+    ID: <input type="number" id="id"><br>
+    Last Name: <input type="text" id="lastNameNou"><br>
+    First Name: <input type="text" id="firstNameNou"><br>
+    Phone Number: <input type="text" id="telephoneNumberNou"><br>
+    <button type="button" onclick="introdu_persoana()">Introdu</button>
+</form>
+
+<!--modifica date persoana in agenda-->
+<h2> Modifica date persoana </h2>
+<form>
+    ID: <input type="number" id="idModif"><br>
+    Last Name: <input type="text" id="lastNameModif"><br>
+    First Name: <input type="text" id="firstNameModif"><br>
+    Phone Number: <input type="text" id="telephoneNumberModif"><br>
+    <button type="button" onclick="modifica_persoana()">Modifica</button>
+</form>
+
+<!--sterge date persoana in agenda-->
+<h2> Sterge date persoana </h2>
+<form>
+    ID: <input type="number" id="idSterge"><br>
+    <button type="button" onclick="sterge_persoana()">Sterge</button>
+</form>
+
+<script>
+    function introdu_persoana()
+    {
+        fetch("https://localhost:8080/person", {
+        method: "POST",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            id: parseInt(document.getElementById("id").value),
+            lastName: document.getElementById("lastNameNou").value,
+            firstName: document.getElementById("firstNameNou").value,
+            telephoneNumber: document.getElementById("telephoneNumberNou").value
+            })
+        })
+        .then(response => {
+        alert("Status: " + response.status);
+        });
+    }
+
+    function modifica_persoana()
+    {
+        const id = parseInt(document.getElementById("idModif").value);
+        fetch("https://localhost:8080/person/" + id, {
+        method: "PUT",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        body: JSON.stringify({
+            id: id,
+            lastName: document.getElementById("lastNameModif").value,
+            firstName: document.getElementById("firstNameModif").value,
+            telephoneNumber: document.getElementById("telephoneNumberModif").value
+            })
+        })
+        .then(response => {
+        alert("Status: " + response.status);
+        });
+    }
+
+    function sterge_persoana()
+    {
+        const id = parseInt(document.getElementById("idSterge").value);
+        fetch("https://localhost:8080/person/" + id, {
+        method: "DELETE",
+        headers: {
+            "Content-Type": "application/json"
+        },
+        })
+        .then(response => {
+        alert("Status: " + response.status);
+        });
+    }
+</script>
