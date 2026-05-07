@@ -1,0 +1,29 @@
+ID: 1|Produs: Termometru infrarosu|Cantitate: 39
+ID: 2|Produs: Masca protectie|Cantitate: 63
+ID: 3|Produs: Dezinfectant maini 500ml|Cantitate: 70
+ID: 4|Produs: Combinezon|Cantitate: 58
+ID: 5|Produs: Alcool sanitar|Cantitate: 7
+ID: 6|Produs: Masca protectie|Cantitate: 94
+ID: 7|Produs: Apa oxigenata|Cantitate: 99
+ID: 8|Produs: Canapea consultatie|Cantitate: 96
+ID: 9|Produs: Ser fiziologic 500ml|Cantitate: 41
+ID: 10|Produs: Tensiometru electronic|Cantitate: 29
+ID: 11|Produs: Halat unica folosinta|Cantitate: 63
+ID: 12|Produs: Halat unica folosinta|Cantitate: 88
+ID: 13|Produs: Betadina 100ml|Cantitate: 45
+ID: 14|Produs: Dezinfectant suprafete 1L|Cantitate: 54
+ID: 15|Produs: Boneta medicala|Cantitate: 16
+ID: 16|Produs: Eprubeta recoltare|Cantitate: 99
+ID: 17|Produs: Plasturi sterili|Cantitate: 63
+ID: 18|Produs: Boneta medicala|Cantitate: 3
+ID: 19|Produs: Halat unica folosinta|Cantitate: 34
+ID: 20|Produs: Trusa prim ajutor|Cantitate: 78
+ID: 21|Produs: Trusa prim ajutor|Cantitate: 61
+ID: 22|Produs: Plasturi sterili|Cantitate: 19
+ID: 23|Produs: Viziera protectie|Cantitate: 65
+ID: 24|Produs: Halat unica folosinta|Cantitate: 88
+ID: 25|Produs: Alcool sanitar|Cantitate: 4
+ID: 26|Produs: Viziera protectie|Cantitate: 24
+ID: 27|Produs: Alcool sanitar|Cantitate: 52
+ID: 28|Produs: Botosi unica folosinta|Cantitate: 3
+ID: 29|Produs: Canapea consultatie|Cantitate: 78
