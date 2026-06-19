@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="ro">
+<head>
+    <meta charset="UTF-8">
+    <title>Contor Butoane Serverless</title>
+</head>
+<body>
+    <h1>Testează butoanele</h1>
+    
+    <button onclick="sendClickEvent('Buton_Abonare')">Abonare</button>
+    <button onclick="sendClickEvent('Buton_Like')">Like</button>
+    <button onclick="sendClickEvent('Buton_Share')">Share</button>
+
+    <script>
+        function sendClickEvent(numeButon) {
+            fetch('http://localhost:8080/api/clicks', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json'
+                },
+                // Trimitem numele butonului ca JSON 
+                body: JSON.stringify({ numeButon: numeButon })
+            })
+            .then(response => response.text())
+            .then(data => console.log(data))
+            .catch(error => console.error('Eroare:', error));
+        }
+    </script>
+</body>
+</html>

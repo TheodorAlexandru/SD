@@ -4,10 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="aaeeab89-547c-4d96-90d9-fe18d79942f5" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/../../../../../Lab3/SD_Laborator_03/WeatherAppChain/blacklist.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Lab3/SD_Laborator_03/WeatherAppChain/blacklist.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../../../../Lab3/SD_Laborator_03/WeatherAppChain/src/main/kotlin/com/sd/laborator/services/AlarmService.kt" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../Lab3/SD_Laborator_03/WeatherAppChain/src/main/kotlin/com/sd/laborator/services/AlarmService.kt" afterDir="false" />
-    </list>
+    <list default="true" id="aaeeab89-547c-4d96-90d9-fe18d79942f5" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />

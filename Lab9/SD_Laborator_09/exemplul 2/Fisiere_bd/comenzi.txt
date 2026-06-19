@@ -27,3 +27,16 @@ ID: 26|Produs: Viziera protectie|Cantitate: 24
 ID: 27|Produs: Alcool sanitar|Cantitate: 52
 ID: 28|Produs: Botosi unica folosinta|Cantitate: 3
 ID: 29|Produs: Canapea consultatie|Cantitate: 78
+ID: 30|Produs: Combinezon|Cantitate: 55
+ID: 31|Produs: Combinezon|Cantitate: 78
+ID: 32|Produs: Termometru infrarosu|Cantitate: 64
+ID: 33|Produs: Masca protectie|Cantitate: 81
+ID: 34|Produs: Eprubeta recoltare|Cantitate: 6
+ID: 35|Produs: Masca protectie|Cantitate: 68
+ID: 36|Produs: Botosi unica folosinta|Cantitate: 27
+ID: 37|Produs: Plasturi sterili|Cantitate: 45
+ID: 38|Produs: Vaccin anti-COVID-19|Cantitate: 24
+ID: 39|Produs: Seringa 10ml|Cantitate: 17
+ID: 40|Produs: Stetoscop|Cantitate: 17
+ID: 41|Produs: Viziera protectie|Cantitate: 46
+ID: 42|Produs: Eprubeta recoltare|Cantitate: 24

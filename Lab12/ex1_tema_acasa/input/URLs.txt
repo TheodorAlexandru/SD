@@ -1,0 +1,3 @@
+https://ro.wikipedia.org/wiki/Apache_Hadoop
+https://ro.wikipedia.org/wiki/Big_data
+https://ro.wikipedia.org/wiki/Python

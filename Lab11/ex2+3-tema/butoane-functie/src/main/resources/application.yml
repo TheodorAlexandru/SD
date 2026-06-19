@@ -1,0 +1,20 @@
+micronaut:
+  application:
+    name: butoaneFunctie
+
+rabbitmq:
+  uri: amqp://localhost:5672
+
+datasources:
+  default:
+    url: jdbc:mysql://localhost:3306/micronaut_db
+    driverClassName: com.mysql.cj.jdbc.Driver
+    username: root
+    password: password
+    dialect: MYSQL
+jpa:
+  default:
+    properties:
+      hibernate:
+        hbm2ddl:
+          auto: update

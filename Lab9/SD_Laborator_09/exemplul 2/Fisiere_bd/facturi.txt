@@ -16,3 +16,11 @@ ID comanda: 21|NR factura: 1654561390
 ID comanda: 24|NR factura: 1897119800
 ID comanda: 28|NR factura: 1894774705
 ID comanda: 29|NR factura: 2013458537
+ID comanda: 30|NR factura: 1895937342
+ID comanda: 31|NR factura: 1158342880
+ID comanda: 33|NR factura: 463617102
+ID comanda: 35|NR factura: 1796563471
+ID comanda: 36|NR factura: 776444087
+ID comanda: 38|NR factura: 15343366
+ID comanda: 39|NR factura: 514801962
+ID comanda: 40|NR factura: 1882470663

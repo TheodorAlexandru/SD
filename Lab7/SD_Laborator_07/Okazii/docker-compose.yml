@@ -1,0 +1,68 @@
+version: '3.8'
+
+services:
+  bidding-processor:
+    build:
+      context: .
+      args:
+        JAR_FILE: out/artifacts/BiddingProcessorMicroservice_jar/BiddingProcessorMicroservice.jar
+    container_name: bidding-processor
+    restart: on-failure
+    ports:
+      - "1700:1700"
+    volumes:
+      - ./Logs:/app/Logs
+
+  message-processor:
+    build:
+      context: .
+      args:
+        JAR_FILE: out/artifacts/MessageProcessorMicroservice_jar/MessageProcessorMicroservice.jar
+    container_name: message-processor
+    restart: on-failure
+    ports:
+      - "1600:1600"
+    volumes:
+      - ./Logs:/app/Logs
+    depends_on:
+      - bidding-processor
+
+  auctioneer:
+    build:
+      context: .
+      args:
+        JAR_FILE: out/artifacts/AuctioneerMicroservice_jar/AuctioneerMicroservice.jar
+    container_name: auctioneer
+    restart: on-failure
+    ports:
+      - "1500:1500"
+    volumes:
+      - ./Logs:/app/Logs
+    depends_on:
+      - message-processor
+
+  bidder:
+    build:
+      context: .
+      args:
+        JAR_FILE: out/artifacts/BidderMicroservice_jar/BidderMicroservice.jar
+    deploy:
+      mode: replicated
+      replicas: 5
+    restart: on-failure
+    volumes:
+      - ./Logs:/app/Logs
+    depends_on:
+      - auctioneer
+
+  heartbeat-monitor:
+    build:
+      context: .
+      args:
+        JAR_FILE: out/artifacts/HeartbeatMicroservice_jar/HeartbeatMicroservice.jar
+    container_name: heartbeat-monitor
+    restart: on-failure
+    depends_on:
+      - auctioneer
+      - message-processor
+      - bidding-processor

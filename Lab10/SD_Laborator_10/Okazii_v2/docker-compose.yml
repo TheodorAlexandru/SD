@@ -1,0 +1,26 @@
+version: "3.7"
+
+services:
+  auctioneer:
+    build:
+      context: ./AuctioneerMicroservice
+    network_mode: "host"
+    restart: on-failure
+
+  message_processor:
+    build:
+      context: ./MessageProcessorMicroservice
+    network_mode: "host"
+    restart: on-failure
+
+  bidding_processor:
+    build:
+      context: ./BiddingProcessorMicroservice
+    network_mode: "host"
+    restart: on-failure
+
+  bidder:
+    build:
+      context: ./BidderMicroservice
+    network_mode: "host"
+    restart: on-failure

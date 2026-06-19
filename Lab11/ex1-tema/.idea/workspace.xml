@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="bf21b770-8a50-4be2-9309-f10130674aae" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/eratostene-queue/src/main/kotlin/com/sd/laborator/EratosteneQueueRequest.kt" beforeDir="false" afterPath="$PROJECT_DIR$/eratostene-queue/src/main/kotlin/com/sd/laborator/EratosteneQueueRequest.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/preia-numere-prime/src/main/kotlin/com/sd/laborator/NumerePrimeClient.kt" beforeDir="false" afterPath="$PROJECT_DIR$/preia-numere-prime/src/main/kotlin/com/sd/laborator/NumerePrimeClient.kt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab6/SD_Laborator_06/Tema_acasa_1/exemplu_libraryapp/LibraryApp/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab6/SD_Laborator_06/Tema_acasa_1/exemplu_libraryapp/LibraryApp/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/comenzi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/comenzi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/facturi.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/facturi.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/stoc_produse.txt" beforeDir="false" afterPath="$PROJECT_DIR$/../../Lab9/SD_Laborator_09/exemplul 2/Fisiere_bd/stoc_produse.txt" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="ProjectColorInfo"><![CDATA[{
+  "associatedIndex": 0,
+  "fromUser": false
+}]]></component>
+  <component name="ProjectId" id="3Di3l2aNbYVowB9oElRZKGcicuf" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "RunOnceActivity.typescript.service.memoryLimit.init": "true",
+    "codeWithMe.voiceChat.enabledByDefault": "false",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "/home/theo/Documents/SD/Lab11/ex1-tema",
+    "node.js.detected.package.eslint": "true",
+    "node.js.detected.package.tslint": "true",
+    "node.js.selected.package.eslint": "(autodetect)",
+    "node.js.selected.package.tslint": "(autodetect)",
+    "nodejs_package_manager_path": "npm"
+  }
+}]]></component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="bf21b770-8a50-4be2-9309-f10130674aae" name="Changes" comment="" />
+      <created>1778751213800</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1778751213800</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+</project>

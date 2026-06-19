@@ -1,0 +1,85 @@
+version: "3.8"
+
+services:
+
+  message-manager:
+    build:
+      context: ./MessageManagerMicroservice
+    image: message-manager
+    container_name: message-manager
+    ports:
+      - "1500:1500"
+    networks:
+      - teacher-student-net
+
+  teacher:
+    build:
+      context: ./TeacherMicroservice
+    image: teacher-microservice
+    container_name: teacher
+    ports:
+      - "1600:1600"
+    environment:
+      - MESSAGE_MANAGER_HOST=message-manager
+    depends_on:
+      - message-manager
+    networks:
+      - teacher-student-net
+
+  student_1:
+    build:
+      context: ./StudentMicroservice
+    image: student-microservice
+    container_name: student_1
+    environment:
+      - MESSAGE_MANAGER_HOST=message-manager
+    depends_on:
+      - message-manager
+    volumes:
+      - ./question_database1.txt:/questions_database.txt
+    networks:
+      - teacher-student-net
+
+  student_2:
+    build:
+      context: ./StudentMicroservice
+    image: student-microservice
+    container_name: student_2
+    environment:
+      - MESSAGE_MANAGER_HOST=message-manager
+    depends_on:
+      - message-manager
+    volumes:
+      - ./question_database2.txt:/questions_database.txt
+    networks:
+      - teacher-student-net
+
+  student_3:
+    build:
+      context: ./StudentMicroservice
+    image: student-microservice
+    container_name: student_3
+    environment:
+      - MESSAGE_MANAGER_HOST=message-manager
+    depends_on:
+      - message-manager
+    volumes:
+      - ./question_database3.txt:/questions_database.txt
+    networks:
+      - teacher-student-net
+
+  heartbeat:
+    build:
+      context: ./HeartbeatMicroservice
+    image: heartbeat
+    container_name: heartbeat
+    environment:
+      - MESSAGE_MANAGER_HOST=message-manager
+    depends_on:
+      - message-manager
+    networks:
+      - teacher-student-net
+
+networks:
+  teacher-student-net:
+    driver: bridge

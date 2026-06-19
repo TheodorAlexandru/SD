@@ -1,0 +1,2 @@
+[23-04-2026 08:04:51] START | Microserviciul a pornit pe portul 49812
+[23-04-2026 08:04:51] PENDING | Oferta Bidderului: [23-04-2026 08:04:51] [Gheorghe Tudor, gheorghetudor@yahoo.com, 0737572924] /172.18.0.9:49812 >>> licitez 3772

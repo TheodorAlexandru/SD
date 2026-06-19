@@ -1,11 +1,11 @@
-Masca protectie|4843
-Vaccin anti-COVID-19|1484
-Combinezon|742
+Masca protectie|4694
+Vaccin anti-COVID-19|1460
+Combinezon|609
 Manusa chirurgicala|10000
 Dezinfectant maini 500ml|530
 Dezinfectant suprafete 1L|308
 Seringa 5ml|3000
-Seringa 10ml|2500
+Seringa 10ml|2483
 Tensiometru electronic|5
 Termometru infrarosu|48
 Pulsoximetru|200
@@ -18,8 +18,8 @@ Betadina 100ml|0
 Apa oxigenata|0
 Ser fiziologic 500ml|0
 Halat unica folosinta|249727
-Botosi unica folosinta|249997
+Botosi unica folosinta|249970
 Boneta medicala|249981
-Stetoscop|250000
+Stetoscop|249983
 Canapea consultatie|249826
 Trusa prim ajutor|249861

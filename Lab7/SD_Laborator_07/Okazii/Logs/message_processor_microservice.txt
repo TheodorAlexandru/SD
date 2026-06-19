@@ -1,0 +1,14 @@
+[23-04-2026 08:58:40] START | Microserviciul a pornit pe portul 1600
+[23-04-2026 08:58:40] PENDING | Procesez [23-04-2026 08:58:25] [Rusu Maria, rusumaria@muuuu.com, 0789138206] /172.18.0.6:54344 >>> licitez 7927
+[23-04-2026 08:58:40] PENDING | Procesez [23-04-2026 08:58:25] [Hiera Lucian, hieralucian@cefaci.com, 0763054652] /172.18.0.7:43076 >>> licitez 2903
+[23-04-2026 08:58:40] PENDING | Procesez [23-04-2026 08:58:25] [Munteanu Delia, munteanudelia@hotmail.com, 0725563532] /172.18.0.8:32926 >>> licitez 7726
+[23-04-2026 08:58:40] PENDING | Procesez [23-04-2026 08:58:25] [Hiera Lucian, hieralucian@gmail.com, 0760475930] /172.18.0.9:56478 >>> licitez 7383
+[23-04-2026 08:58:40] PENDING | Procesez [23-04-2026 08:58:25] [Popa Alexandra, popaalexandra@tuiasi.ro, 0743407505] /172.18.0.10:34330 >>> licitez 5980
+[23-04-2026 08:58:40] PENDING | Am primit toate mesajele
+[23-04-2026 08:58:40] DONE | Am procesat [23-04-2026 08:58:25] [Rusu Maria, rusumaria@muuuu.com, 0789138206] /172.18.0.6:54344 >>> licitez 7927.
+[23-04-2026 08:58:40] DONE | Am procesat [23-04-2026 08:58:25] [Hiera Lucian, hieralucian@cefaci.com, 0763054652] /172.18.0.7:43076 >>> licitez 2903.
+[23-04-2026 08:58:40] DONE | Am procesat [23-04-2026 08:58:25] [Munteanu Delia, munteanudelia@hotmail.com, 0725563532] /172.18.0.8:32926 >>> licitez 7726.
+[23-04-2026 08:58:40] DONE | Am procesat [23-04-2026 08:58:25] [Hiera Lucian, hieralucian@gmail.com, 0760475930] /172.18.0.9:56478 >>> licitez 7383.
+[23-04-2026 08:58:40] DONE | Am procesat [23-04-2026 08:58:25] [Popa Alexandra, popaalexandra@tuiasi.ro, 0743407505] /172.18.0.10:34330 >>> licitez 5980.
+[23-04-2026 08:58:40] DONE | Am terminat de procesat mesajele.
+[23-04-2026 08:58:40] FINISH | Am terminat de executat tot.
